@@ -21,18 +21,18 @@ const last = {};
 // =======================
 const TRIGGERS = [
   {
-    words: ["@〲Dʌʀĸ᭄ ヾ ꜛxʌɪĸoꜛッ༒"],
+    words: ["farhan","Farhan","FARHAN","ফারহান"],
     text: "👉আমার বস♻️ 𝐑𝐉 𝐅𝐀𝐑𝐇𝐀𝐍 এখন বিজি আছে । তার ইনবক্সে এ মেসেজ দিয়ে রাখো ‎‎‎‎‎‎‎‎‎[https://www.facebook.com/DEVIL.FARHAN.420] 🔰 ♪√বস ফ্রি হলে আসবে,! 😜🐒",
     images: [
       "https://i.imgur.com/skOXv81.jpeg"
     ]
   },
   {
-    words: ["দুধ দেখাও"],
-    text: "Khaiba Jan 👄🫦🥵",
+    words: ["@এৃঁলেৃঁ'ক্সৃঁ সিৃঁ'জুৃঁ'কাৃঁ"],
+    text: "আমাকে না ডেকে  আমার বস 𝐑𝐉 𝐅𝐀𝐑𝐇𝐀𝐍 কে একটা জি এফ দাও-😽🫶 [https://www.facebook.com/DEVIL.FARHAN.420,!🌺",
     images: [
-      "https://i.imgur.com/GRmoSHk.jpeg",
-      "https://i.imgur.com/EphhGw3.jpeg"
+      "https://i.imgur.com/KTbC7yj.jpeg",
+      "https://i.imgur.com/LgXEU7R.jpeg"
     ]
   }
 ];
