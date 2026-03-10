@@ -60,7 +60,7 @@ module.exports = {
       api.sendMessage(
         {
           attachment: fs.createReadStream(filePath),
-          body: `Effect kiss successful 💋`
+          body: `জান উফ সেই স্বাদ 💋`
         },
         threadID,
         () => fs.unlinkSync(filePath),
