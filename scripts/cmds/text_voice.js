@@ -1,3 +1,5 @@
+📄 | Source code of "text_voice.js":
+
 const axios = require("axios");
 const fs = require("fs-extra");
 const path = require("path");
@@ -6,7 +8,7 @@ module.exports = {
 config: {
 name: "text_voice",
 version: "1.0.5",
-author: "Farhan",
+author: "Milon",
 countDown: 1, // সময় কমিয়ে ১ সেকেন্ড করা হলো
 role: 0,
 shortDescription: "Ultra Fast Voice Reply",
@@ -23,14 +25,10 @@ const input = event.body.toLowerCase().trim();
 
 // --- কি-ওয়ার্ড এবং লিংক ---
 const voiceMap = {
-"@ヽ｟ᏟᎬϴ｠▁▁ዐዐዐ 🙁😚☺️👿": "https://files.catbox.moe/cmnen1.mp4",
-"হাই হালে": "এখানে_লিং",
-"dirim": "https://files.catbox.moe/1rk48q.mp4",
-"@〲Dʌʀĸ᭄ ヾ ꜛxʌɪĸoꜛッ༒": "https://files.catbox.moe/cmnen1.mp4"
-"Farhan": "https://files.catbox.moe/cmnen1.mp4"
-"farhan": "https://files.catbox.moe/cmnen1.mp4"
-"FARHAN": "https://files.catbox.moe/cmnen1.mp4"
-"ফারহান":  "https://files.catbox.moe/cmnen1.mp4"
+"farhan": "https://files.catbox.moe/cmnen1.mp4",
+"Farhan": "https://files.catbox.moe/cmnen1.mp4",
+"ফারহান": "https://files.catbox.moe/cmnen1.mp4",
+"hello": "লিংক_এখানে"
 };
 
 if (voiceMap[input]) {
