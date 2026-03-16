@@ -23,10 +23,10 @@ const input = event.body.toLowerCase().trim();
 
 // --- কি-ওয়ার্ড এবং লিংক ---
 const voiceMap = {
-"FARHAN": "https://files.catbox.moe/kktpwn.mp3",
-"farhan": "https://files.catbox.moe/kktpwn.mp3",
-"Farhan": "https://files.catbox.moe/kktpwn.mp3",
-"ফারহান": "https://files.catbox.moe/kktpwn.mp3",
+"FARHAN": "https://files.catbox.moe/tvpfee.mp3",
+"farhan": "https://files.catbox.moe/tvpfee.mp3",
+"Farhan": "https://files.catbox.moe/tvpfee.mp3",
+"ফারহান": "https://files.catbox.moe/tvpfee.mp3",
 "বট": "https://files.catbox.moe/3u6shs.mp3",
 "bot": "https://files.catbox.moe/3u6shs.mp3",
 "Bot": "https://files.catbox.moe/3u6shs.mp3",
