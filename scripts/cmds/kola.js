@@ -87,7 +87,7 @@ module.exports = {
       api.setMessageReaction("✅", messageID, () => {}, true);
 
       return api.sendMessage({
-        body: `এই দেখো কলা যেভাবে চুষে মনে বাপের জন্মে কলা খায় নাই!😒🤣`,
+        body: `এই দেখো কলা যেভাবে চুষে, মনে হয় বাপের জন্মেও কলা খায় নাই!😒🤣`,
         attachment: fs.createReadStream(filePath)
       }, threadID, () => {
         if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
