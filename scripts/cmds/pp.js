@@ -1,6 +1,6 @@
 module.exports.config = {
  name: "pp",
- alishes: "uid, pp", 
+ alishes: "Pp, pp", 
  version: "2.0.0",
  hasPermssion: 0,
  credits: "SUJON",
