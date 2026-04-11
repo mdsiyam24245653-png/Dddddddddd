@@ -6,7 +6,7 @@ module.exports = {
     name: "pending",
     aliases: ["pen", "pend", "pe"],
     version: "2.0.2", // Updated version
-    author: "♡ Nazrul ♡ + Fixed by Alamin",
+    author: "FARHAN-KHAN",
     countDown: 5,
     role: 1,
     shortDescription: "Handle pending requests",
