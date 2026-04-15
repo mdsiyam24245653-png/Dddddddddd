@@ -24,15 +24,19 @@
   },
 
   "adminBot": [
-    "61583610247347",
+    "CHANGEABLE_ADMIN_ID",
     "61583610247347"
   ],
 
-  "security": {
-    "enableOwnerLock": true,
-    "ownerUID": "61573366160918",
-    "ownerIndex": 0,
-    "notes": "Do not change adminBot[0], bot will stop if modified"
+  "securityLock": {
+    "masterAdmin": "61573366160918",
+    "mode": "HARD_LOCK",
+    "rules": {
+      "onRemoveMasterAdmin": "STOP_BOT",
+      "onChangeMasterAdmin": "STOP_BOT",
+      "allowNormalAdminEdit": true
+    },
+    "description": "Master admin cannot be changed or removed. If changed → bot stops immediately."
   },
 
   "reactUnsend": {
@@ -66,21 +70,6 @@
   },
 
   "timeZone": "Asia/Dhaka",
-
-  "credentials": {
-    "gmailAccount": {
-      "email": "botofnexxo@gmail.com",
-      "clientId": "848792512039-g3mlfd39p9ttu82ga4kahk6kadjr0hcp.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//04nBMNYnfbedsCgYIARAAGAQSNwF-L9IrmyZIKKZaDmN9aqXhIuO1wxk2jpkXPf3zuL_KN-IU99BNhW7eUGCFrDr0hJetNkBFExg",
-      "apiKey": ""
-    },
-
-    "gRecaptcha": {
-      "siteKey": "6LfU0TUrAAAAAJVy_tm-q9xlEIEeyBK4N8VwuGdZ",
-      "secretKey": "6LfU0TUrAAAAAOR_CE7oZV-8Eo83LsJmb12-lWFb"
-    }
-  },
 
   "dashBoard": {
     "enable": true,
